@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+
+    <link
+      rel="."
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="style.js"></script>
+    <title>내배캠 최고 평점 영화</title>
+  </head>
+
+  <body>
+    <header class="nav">
+      <div class="site-name">검색</div>
+      <section>
+        <div class="search">
+          <input
+            id="searchBar"
+            class="search-bar"
+            type="search"
+            placeholder="검색할 영화 제목을 입력해 주세요"
+          />
+          <button class="button" type="button" onclick="buttonClick()">
+            <span class="material-symbols-outlined"> 찾기 </span>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="cardlist"></div>
+    </main>
+  </body>
+</html>
